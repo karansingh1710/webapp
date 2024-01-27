@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.password">AVNS_gqlgGLCEwnprPWz3y4g</property>
-        <property name="hibernate.connection.url">jdbc:mysql://mysql-karan-javva.a.aivencloud.com:17137/defaultdb</property>
-        <property name="hibernate.connection.username">avnadmin</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.connection.url"></property>
+        <property name="hibernate.connection.username"></property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         
         <!-- Inform HIBERNATE to create/alter/drop the table -->
