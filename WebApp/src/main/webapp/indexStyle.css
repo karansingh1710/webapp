@@ -1,0 +1,53 @@
+h1 {
+	font-weight: bold;
+	color: #54BAB9;
+}
+
+body {
+	align-items: center;
+	font-family: 'Arial', sans-serif;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-image: url(background.webp);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #333;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	background-color: #FBF8F1;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+	text-align: center;
+}
+
+.links a {
+	margin: 10px;
+	text-decoration: none;
+	color: #007BFF;
+	transition: color 0.3s ease;
+}
+
+.links a:hover {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#heart {
+	color: red;
+	font-size: 30px;
+}
+#foot{
+	display: table;
+	font-size: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+}
